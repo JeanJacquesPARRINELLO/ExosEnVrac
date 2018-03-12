@@ -18,6 +18,7 @@ public class Exercice07 {
     boolean morning;
     
     public void launch(){
+        System.out.println("Exercie 07");
         //  Affichez la chaine de caractère sur la console
         if(!morning){
             System.out.println(bonsoir + " vous");

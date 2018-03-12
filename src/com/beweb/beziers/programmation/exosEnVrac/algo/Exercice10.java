@@ -15,27 +15,28 @@ package com.beweb.beziers.programmation.exosEnVrac.algo;
 public class Exercice10 {
     //  DÉCLARATION DU TABLEAU CONTENANT LES 100 PREMIERS
     //  NOMBRES DE LA SUITE FABONACCI
-    int[] fabonacciTab = new int[100];
+    long[] fibonacciTab = new long[100];
     
     public void launch(){
+        System.out.println("Exercie 10");
         //  REMPLISSAGE DU TABLEAU AVEC LES VALEURS DE LA SUITE
-        //  LES DEUX PREMIÈRE VALEURS VALENT 0.
+        //  LES DEUX PREMIÈRE VALEURS VALENT 0 et 1.
         //  LES VALEURS SUIVANTES SONT RÉGIES PAR LA FORMULE SUIVANTE :
         //  Fn = Fn-2 + Fn-1    pour n≥2
         
         for(int n = 0 ; n < 100 ; n++){
             switch(n){
                 case(0):
-                    fabonacciTab[n] = 0;
+                    fibonacciTab[n] = 0;
                     break;
                 case(1):
-                    fabonacciTab[n] = 1;
+                    fibonacciTab[n] = 1;
                     break;
                 default:
-                    fabonacciTab[n] = fabonacciTab[n-2] + fabonacciTab[n-1];
+                    fibonacciTab[n] = fibonacciTab[n-2] + fibonacciTab[n-1];
                     break;
             }
-            System.out.println("F" + n + " est égal à : " + fabonacciTab[n]);
+            System.out.println("F" + n + " est égal à : " + fibonacciTab[n]);
         }
     }
     

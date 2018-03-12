@@ -19,6 +19,7 @@ public class Exercice05 {
     }
     
     public void launch(){
+        System.out.println("Exercie 05");
         while(compteur <= 100){
             //  Utilisez une boucle while pour afficher en console toutes les valeurs 
             //  que peut prendre cette variable entre 10 et 100 inclus

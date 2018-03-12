@@ -22,6 +22,6 @@ public class Exercice01 {
     }
     
     public void launch(){
-            
+        System.out.println("Exercie 01");
     }
 }

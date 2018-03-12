@@ -14,6 +14,7 @@ public class Exercice08 {
     int intVar = 243;
     
     public void launch(){
+        System.out.println("Exercie 08");
         for(int compteur = intVar ; compteur >= 1 ; compteur--){
             if(compteur%10 == 0){
                 System.out.println("Le nombre " + compteur + " est un multiple de 10");

@@ -24,6 +24,7 @@ public class Exercice02 {
     
     
     public void launch(){
+        System.out.println("Exercie 02");
         //  Affichez la chaine de caractère sur la console    
         System.out.println("La valeur de l'attribut myString est : ");
     }

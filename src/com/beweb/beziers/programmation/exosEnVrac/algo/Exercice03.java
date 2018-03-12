@@ -9,19 +9,25 @@ package com.beweb.beziers.programmation.exosEnVrac.algo;
  *
  * @author padbrain
  */
-public class Exercice03 {
+public class Exercice03{
     //  À CHAQUE CHANGEMENT DE LA VALEUR DE FLAG L'EXCUTION
     //  DÉMARRE APRÈS LA COMPILATIONs
     boolean flag;   //  Déclarez une variable booléene «flag»
 
-    public Exercice03() {
+    public Exercice03(){
         //  INITIALISATION DE LA VARIABLE
-        this.flag = true;
+//        this.flag = true;
     }
     
     public void launch(){
+        System.out.println("Exercie 03");
         //  AFFICHAGE DE LA REPRÉSENTATION DE L'ÉTAT DU TAG
-        System.out.println((flag) ? "allumé" : "éteint");
+//        System.out.println((flag) ? "allumé" : "éteint");
+        if(flag){
+            System.out.println("allumé");
+        }else{
+            System.out.println("éteint");
+        }
     }
     
 }

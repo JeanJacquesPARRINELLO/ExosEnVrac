@@ -39,7 +39,7 @@ public class ObjetsMain {
         System.out.print("et des yeux  " + Dupond.getCouleurYeux() + " ");
         System.out.print("et mesure " + Dupond.getTaille() + " m. ");
         System.out.print("Mon métier est " + Dupond.getProfession() + " ");
-        System.out.print("et j'habite au " + Dupond.getAdresse()+ ".");
+        System.out.print("et j'habite au " + Dupond.getAdresse()+ ".\n\n");
         
         
         Dupont = new Personne();
